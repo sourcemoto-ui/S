@@ -1,0 +1,347 @@
+<!-- EZPAGE 獨立樣板開始 -->
+<div class="ez-wrapper">
+  <!-- 1. 主視覺 Hero Banner -->
+  <section class="ez-hero">
+    <div class="ez-container">
+      <span class="ez-tag">新品上市 / 專案特選</span>
+      <h1>精準工藝，為極致性能而生</h1>
+      <p>結合頂級規格與細節調校，打造不妥協的專屬體驗。立即探索最新系列。</p>
+      <div class="ez-btn-group">
+        <a href="#products" class="ez-btn ez-btn-primary">立即選購</a>
+        <a href="#faq" class="ez-btn ez-btn-outline">常見問題</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. 三大核心特色 -->
+  <section class="ez-features">
+    <div class="ez-container ez-grid-3">
+      <div class="ez-card">
+        <div class="ez-icon">01</div>
+        <h3>極致用料</h3>
+        <p>高規格航空級鋁合金與耐磨材質，兼顧輕量化與最高結構強度。</p>
+      </div>
+      <div class="ez-card">
+        <div class="ez-icon">02</div>
+        <h3>直上直裝</h3>
+        <p>專車專用孔位公差精準控制，免破壞原廠線路與結構，無損升級。</p>
+      </div>
+      <div class="ez-card">
+        <div class="ez-icon">03</div>
+        <h3>售後保固</h3>
+        <p>提供完整一年原廠保固與技術諮詢支援，售後服務無後顧之憂。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. 精選展示 / 規格區塊 -->
+  <section id="products" class="ez-showcase">
+    <div class="ez-container">
+      <div class="ez-section-header">
+        <h2>焦點規格與展示</h2>
+        <p>每一處細節皆經過嚴格測試與校準</p>
+      </div>
+      <div class="ez-grid-2">
+        <div class="ez-media">
+          <img src="https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80" alt="展示圖">
+        </div>
+        <div class="ez-info">
+          <h3>CNC 一體成型切削工藝</h3>
+          <p>經過 5 軸 CNC 聯動加工，表面施以陽極硬化處理，抗候耐磨不褪色。專為追求極致細節與手感的玩家量身打造。</p>
+          <ul class="ez-list">
+            <li><strong>本體材質：</strong> AL6061-T6 鍛造鋁合金</li>
+            <li><strong>表面處理：</strong> 黑色硬質陽極氧化（防鏽抗鹽霧）</li>
+            <li><strong>相容性：</strong> 原廠直上無須改線</li>
+          </ul>
+          <a href="#" class="ez-btn ez-btn-primary" style="margin-top: 16px;">查看購買詳情</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. 原生免 JS FAQ 收合區塊 -->
+  <section id="faq" class="ez-faq">
+    <div class="ez-container">
+      <div class="ez-section-header">
+        <h2>常見問題（FAQ）</h2>
+        <p>點擊即可展開查看詳細說明</p>
+      </div>
+      <div class="ez-accordion">
+        <details>
+          <summary>下單後需要多久才能出貨？</summary>
+          <div class="ez-faq-content">
+            現貨商品於工作日 24 小時內完成出貨；客製化或預購品項約需 5-7 個工作天，出貨當日將發送簡訊與 Email 通知物流單號。
+          </div>
+        </details>
+        <details>
+          <summary>安裝會影響原廠保固或原車線路嗎？</summary>
+          <div class="ez-faq-content">
+            本產品均採原車專用接頭直上設計，無需剪線或修改車體，拆卸後可完全恢復原廠狀態，不影響原車保固權益。
+          </div>
+        </details>
+        <details>
+          <summary>收到商品若尺寸不合或有瑕疵如何處理？</summary>
+          <div class="ez-faq-content">
+            享有消保法規定之 7 天鑑賞期（非試用期）。若包裝完整且未經安裝使用，請透過官方客服發起退換貨流程，我們將派車收回處理。
+          </div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. 底部行動呼籲 CTA -->
+  <section class="ez-cta">
+    <div class="ez-container">
+      <h2>準備好升級了嗎？</h2>
+      <p>有客製需求或大量採購諮詢？歡迎直接加入官方 LINE 或來店洽詢。</p>
+      <a href="#" class="ez-btn ez-btn-light">加入 LINE 官方客服諮詢</a>
+    </div>
+  </section>
+</div>
+
+<style>
+  /* 命名空間隔離樣式 */
+  .ez-wrapper {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: #222222;
+    line-height: 1.6;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+  }
+  .ez-wrapper * {
+    box-sizing: border-box;
+  }
+  .ez-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* 按鈕 */
+  .ez-btn {
+    display: inline-block;
+    padding: 12px 28px;
+    border-radius: 6px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: opacity 0.2s ease, transform 0.1s ease;
+    cursor: pointer;
+  }
+  .ez-btn:hover {
+    opacity: 0.9;
+    transform: translateY(-1px);
+  }
+  .ez-btn-primary {
+    background-color: #111111;
+    color: #ffffff !important;
+  }
+  .ez-btn-outline {
+    background-color: transparent;
+    color: #111111 !important;
+    border: 1px solid #111111;
+  }
+  .ez-btn-light {
+    background-color: #ffffff;
+    color: #111111 !important;
+  }
+
+  /* 1. Hero */
+  .ez-hero {
+    background-color: #0f1115;
+    color: #ffffff;
+    padding: 90px 0;
+    text-align: center;
+  }
+  .ez-hero .ez-tag {
+    display: inline-block;
+    font-size: 13px;
+    letter-spacing: 1.5px;
+    background: rgba(255, 255, 255, 0.12);
+    padding: 4px 14px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    color: #4ade80;
+  }
+  .ez-hero h1 {
+    font-size: clamp(28px, 4vw, 42px);
+    margin: 0 0 16px;
+    font-weight: 800;
+    line-height: 1.25;
+    color: #ffffff;
+  }
+  .ez-hero p {
+    font-size: 16px;
+    color: #a1a1aa;
+    max-width: 600px;
+    margin: 0 auto 30px;
+  }
+  .ez-hero .ez-btn-group {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .ez-hero .ez-btn-outline {
+    color: #ffffff !important;
+    border-color: rgba(255, 255, 255, 0.4);
+  }
+
+  /* 2. Features */
+  .ez-features {
+    padding: 70px 0;
+    background-color: #f9fafb;
+  }
+  .ez-grid-3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 24px;
+  }
+  .ez-card {
+    background: #ffffff;
+    padding: 32px 24px;
+    border-radius: 8px;
+    border: 1px solid #e5e7eb;
+  }
+  .ez-icon {
+    font-size: 20px;
+    font-weight: 800;
+    color: #2563eb;
+    margin-bottom: 12px;
+  }
+  .ez-card h3 {
+    margin: 0 0 8px;
+    font-size: 18px;
+  }
+  .ez-card p {
+    margin: 0;
+    font-size: 14px;
+    color: #6b7280;
+  }
+
+  /* 3. Showcase */
+  .ez-showcase {
+    padding: 80px 0;
+  }
+  .ez-section-header {
+    text-align: center;
+    margin-bottom: 45px;
+  }
+  .ez-section-header h2 {
+    font-size: 28px;
+    margin: 0 0 8px;
+  }
+  .ez-section-header p {
+    color: #6b7280;
+    margin: 0;
+  }
+  .ez-grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+  }
+  .ez-media img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    object-fit: cover;
+  }
+  .ez-info h3 {
+    font-size: 24px;
+    margin: 0 0 16px;
+  }
+  .ez-info p {
+    color: #4b5563;
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  .ez-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px;
+  }
+  .ez-list li {
+    padding: 8px 0;
+    border-bottom: 1px dashed #e5e7eb;
+    font-size: 14px;
+    color: #374151;
+  }
+
+  /* 4. FAQ */
+  .ez-faq {
+    padding: 70px 0;
+    background-color: #f9fafb;
+  }
+  .ez-accordion {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  .ez-accordion details {
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 6px;
+    margin-bottom: 12px;
+    overflow: hidden;
+  }
+  .ez-accordion summary {
+    padding: 16px 20px;
+    font-weight: 600;
+    cursor: pointer;
+    list-style: none;
+    position: relative;
+    user-select: none;
+  }
+  .ez-accordion summary::-webkit-details-marker {
+    display: none;
+  }
+  .ez-accordion summary::after {
+    content: "+";
+    position: absolute;
+    right: 20px;
+    font-size: 18px;
+    line-height: 1;
+  }
+  .ez-accordion details[open] summary::after {
+    content: "−";
+  }
+  .ez-faq-content {
+    padding: 0 20px 16px;
+    font-size: 14px;
+    color: #4b5563;
+    line-height: 1.6;
+  }
+
+  /* 5. CTA */
+  .ez-cta {
+    background-color: #111111;
+    color: #ffffff;
+    text-align: center;
+    padding: 65px 20px;
+  }
+  .ez-cta h2 {
+    font-size: 26px;
+    margin: 0 0 12px;
+    color: #ffffff;
+  }
+  .ez-cta p {
+    color: #9ca3af;
+    margin: 0 0 24px;
+  }
+
+  /* RWD 手機版自適應 */
+  @media (max-width: 768px) {
+    .ez-grid-2 {
+      grid-template-columns: 1fr;
+      gap: 24px;
+    }
+    .ez-hero {
+      padding: 60px 0;
+    }
+    .ez-showcase, .ez-features, .ez-faq {
+      padding: 50px 0;
+    }
+  }
+</style>
+<!-- EZPAGE 獨立樣板結束 -->
